@@ -107,28 +107,14 @@ const ActualData=()=>{
                 <li className='li'>Price-{item.price}</li>
                 <li className='li'>Available Color:-{item.color}</li>
                 <li className='li li_margin'>Available Size:-{item.size}</li>
+                {SizeIndex===index?sizes===item.size?<p className='paraGraph'>Add To Cart</p>:<p className='paraGraph'>Not Available</p>:''}
+                
                 <div className='size_cont'>
-                    <div className='size_background'>
-                        <button  className="p">S</button>
-
-                    </div>
-                    <div className='size_background'>
-                        <p className="p">M</p>
-
-                    </div>
-                    <div className='size_background'>
-                        <p className="p">L</p>
-
-                    </div>
-                    <div className='size_background'>
-                        <p className="p">XL</p>
-
-                    </div>
-                    <div className='size_background'>
-                        <p className="p">XXL</p>
-
-                    </div>
-
+                        <button onClick={()=> SizeCheck("S",index)} className="p">S</button>
+                        <button onClick={()=> SizeCheck("M",index)} className="p">M</button>
+                        <button onClick={()=> SizeCheck("L",index)} className="p">L</button>
+                        <button onClick={()=> SizeCheck("XL",index)} className="p">XL</button>
+                        <button onClick={()=> SizeCheck("XXL",index)} className="p">XXL</button>
                 </div>
              
              </div>
