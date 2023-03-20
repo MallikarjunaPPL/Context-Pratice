@@ -1,0 +1,81 @@
+.product_cont{
+    display: flex;
+    
+}
+
+
+.main_card{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left:200px;
+    margin-top:155px;
+    align-items: center;
+    justify-content: center;
+    
+}
+.btn_bt{
+    background-color: black;
+    border-style: none;
+    color:white;
+    height:0px;
+    width:0px;
+    text-align: center;
+    font-size:10px;
+    margin-right:11px;
+    margin-top:12px;
+    height:35px;
+    width:35px;
+    border-radius: 35px;
+
+}
+.image_color_cont{
+    height:300px;
+    width:300px;
+    border-radius: 300px;
+    border-style: solid;
+    border-width: 0px;
+    text-align: center;
+ 
+}
+.image_container{
+    height:200px;
+    width:200px;
+    border-radius: 200px;
+    margin-top:50px;
+}
+.li_cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.li{
+    align-items:center;
+    font-family:"Adobe Arabic";
+    font-size:19px; 
+    font-weight:700;
+    text-decoration: none;
+}
+.cart_cont{
+    text-decoration: none;
+}
+.color_cont{display: flex;}
+.red_color_backgrnd{margin:5px;height:30px;width:30px;border-radius:30px;border-width:0px;background-color: red;}
+.yellow_color_backgrnd{margin:5px;height:30px;width:30px;border-radius:30px;border-width:0px;background-color: yellow;}
+.orange_color_backgrnd{margin:5px;height:30px;width:30px;border-radius:30px;border-width:0px;background-color: darkorange;}
+.black_color_backgrnd{margin:5px;height:30px;width:30px;border-radius:30px;border-width:0px;background-color:chartreuse;}
+
+
+.size_cont{display:flex;}
+.paraGraph{color:red}
+.p{
+    height:30px;width:30px;border-radius: 30px;background-color: grey;text-align: center;margin:5px;
+    margin-top:9px;
+    font-size:13px;
+    background-color: grey;
+    border-style: none;
+    border-width: 0px;
+}
+.li_margin{
+    margin-bottom:20px;
+}
