@@ -8,6 +8,7 @@ import Create from "./Components/Create/create";
 import Context from "./Context.js";
 import { useState } from "react";
 import { useSelector } from 'react-redux';
+import Combine from "./Components/Combine";
 const App = () => {
   let {cartItems}=useSelector((state)=>state.cart)
   let pro_data=cartItems
@@ -20,14 +21,14 @@ return(
  <Context.Provider value={{new_data,setnewData,filter_data,setFilter}}>
   <BrowserRouter>
   <Header/>
-   <SideNav/>
+  
    <div className="background">
   <Routes >
    
     <Route exact path="/home" element={<Home/>}/>
     <Route exact path="/create" element={<Create/>}/>
    
-    <Route exact path="/product" element={<Product/>}/>
+    <Route exact path="/product" element={<Combine/>}/>
     
    </Routes>
    </div>

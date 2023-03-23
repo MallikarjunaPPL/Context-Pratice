@@ -66,7 +66,8 @@ const changeAll=()=>{
     const searchfilterData=new_data.filter((item)=>
    item.size.toLowerCase().includes(search)||
       item.color.toLowerCase().includes(search)||
-    item.price.toLowerCase().includes(search)
+    item.price.toLowerCase().includes(search) ||
+    item.category.toLowerCase().includes(search)
    )
   
     setFilter(searchfilterData)
@@ -118,7 +119,7 @@ const CreateSideNav = () => {
                 </div>
                 </div>
                 <input placeholder="search"  onClick={filterSearch} onChange={changeSearch} value={search}  className='btn_create' type="search"/>
-                <Link to="/create" > <button onClick={chnageback} className='btn_create'>Back</button></Link>
+                <Link to="/create" > <button onClick={chnageback} className='btn_create'>Create Product</button></Link>
                 <Link to="/home" >  <button onClick={homepage} className='btn_create'>Home</button></Link>
             </div>
     )

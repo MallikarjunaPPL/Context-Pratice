@@ -19,7 +19,7 @@ const cartItems=[
     {
         id:1,
         src:src1,
-        category:"Cropped stay Grovyy off",
+        category:"Cropped Stay Grovyy",
         color:"red",
         price:"$10",
         size:"S"
@@ -27,15 +27,15 @@ const cartItems=[
     {
         id:2,
         src:src2,
-        category:"Cropped stay Grovyy off",
-        color:"blue",
+        category:"Tappered stay Grovyy off",
+        color:"yellow",
         price:"$20",
         size:"S"
     },
     {
         id:3,
         src:src3,
-        category:"Cropped stay Grovyy off",
+        category:"Knee cut stay Grovyy off",
         color:"yellow",
         price:"$30",
         size:"M"
@@ -43,7 +43,7 @@ const cartItems=[
     {
         id:4,
         src:src4,
-        category:"Cropped stay Grovyy off",
+        category:"Slim Fit stay Grovyy off",
         color:"orange",
         price:"$20",
         size:"L"
@@ -51,32 +51,32 @@ const cartItems=[
     {
         id:5,
         src:src5,
-        category:"Cropped stay Grovyy off",
-        color:"pink",
+        category:"Distressed stay Grovyy off",
+        color:"chartreuse",
         price:"$10",
         size:"XXL"
     },
     {
         id:6,
         src:src6,
-        category:"Cropped stay Grovyy off",
-        color:"blue",
+        category:"Clean stay Grovyy off",
+        color:"chartreuse",
         price:"$90",
         size:"XXL"
     },
     {
         id:7,
         src:src7,
-        category:"Cropped stay Grovyy off",
-        color:"white",
+        category:"Mid Waist stay Grovyy off",
+        color:"orange",
         price:"$80",
         size:"L"
     },
     {
         id:8,
         src:src8,
-        category:"Cropped stay Grovyy off",
-        color:"Black",
+        category:"Slim Fit Grovyy off",
+        color:"red",
         price:"$70",
         size:"XL"
     },
@@ -84,15 +84,15 @@ const cartItems=[
         id:9,
         src:src9,
         category:"Cropped stay Grovyy off",
-        color:"violet",
+        color:"red",
         price:"$60",
         size:"S"
     },
     {
         id:10,
         src:src10,
-        category:"Cropped stay Grovyy off",
-        color:"brown",
+        category:"Mid Waist Grovyy off",
+        color:"yellow",
         price:"$50",
         size:"M"
     },
@@ -115,7 +115,7 @@ const cartItems=[
     {
         id:13,
         src:src13,
-        category:"Cropped stay Grovyy off",
+        category:"Clean stay Grovyy off",
         color:"yellow",
         price:"$20",
         size:"L"
@@ -123,23 +123,23 @@ const cartItems=[
     {
         id:14,
         src:src14,
-        category:"Cropped stay Grovyy off",
-        color:"blue",
+        category:"Knee cut stay Grovyy off",
+        color:"chartreuse",
         price:"$10",
         size:"M"
     },
     {
         id:15,
         src:src15,
-        category:"Cropped stay Grovyy off",
-        color:"blue",
+        category:"Tappered stay Grovyy off",
+        color:"orange",
         price:"$20",
         size:"L"
     },
     {
         id:16,
         src:src16,
-        category:"Cropped stay Grovyy off",
+        category:"Tappered stay Grovyy off",
         color:"red",
         price:"$25",
         size:"XL"

@@ -6,6 +6,7 @@ import { useContext,useState } from 'react';
 import { v4 as uuidv4 } from "uuid";
 // import { useSelector } from 'react-redux';
 import Context from "../../Context"
+import Sidenav from '../SideNav';
 const Create = () => {
     const [Size, setSize] = useState("");
     const [errorMessage, setErrorMessage] = useState(false);
@@ -52,7 +53,7 @@ const Create = () => {
         const value=e.target.value
         const regex = /^(s|m|l|xl|xxl)$/i;
         if (regex.test(value)) {
-          setSize(value);
+          setSize(value.toUpperCase());
           setErrorMessage(false);
         } else {
           setSize("");
@@ -84,13 +85,19 @@ const Create = () => {
        setVal({inpVal,nameSear:"",priSear:""})
        
         setImage(null)
-        setnewData((prev)=>[...prev,add])
+        if (add.category!=="" && add.price!=="" && add.size!=="" && add.color!=="" && add.src!==""){
+            setnewData((prev)=>[...prev,add])
+        }else{
+            alert("Enter all the Required fields")
+            setnewData(new_data)
+        }
        
         
     }
     // console.log("create............",create)
         return (
-
+            <>
+       <Sidenav/>
         <form onSubmit={submit}>
             <div className='inp_cont'>
             <div>
@@ -121,6 +128,7 @@ const Create = () => {
         
             
         </form>
+        </>
     );
 };
 

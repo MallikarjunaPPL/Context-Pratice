@@ -5,6 +5,7 @@ import "./product.css";
 import { useSelector } from 'react-redux';
 
 import Context from "../../Context"
+import Sidenav from '../SideNav';
 
 const Product = () => {
    const {new_data,filter_data}=useContext(Context)
@@ -49,6 +50,7 @@ const Product = () => {
  
      return(
         <>
+        
          {filter_data.map((item,index)=>(
             
              <ul className='cart_cont' key={item.id}>
@@ -89,6 +91,7 @@ const ActualData=()=>{
     // console.log("filterdata",filterData)
     return(
         <>
+       
     
         {new_data.map((item,index)=>(
             
